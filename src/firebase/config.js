@@ -4,13 +4,13 @@ import { getFirestore } from "firebase/firestore";
 import {getStorage} from 'firebase/storage'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD6JV3q2QW9JpgY-JI3fyoFA8KFtBl3PkA",
-  authDomain: "socialmedia-45aff.firebaseapp.com",
-  projectId: "socialmedia-45aff",
-  storageBucket: "socialmedia-45aff.appspot.com",
-  messagingSenderId: "592834821187",
-  appId: "1:592834821187:web:079e62850cf76b9a6b28f6",
-  measurementId: "G-E0BG88SBH3"
+  apiKey: "AIzaSyBcGZlPLbjiggPG87NW3RCwrHK2444N4fA",
+  authDomain: "socialmedia-dd727.firebaseapp.com",
+  projectId: "socialmedia-dd727",
+  storageBucket: "socialmedia-dd727.appspot.com",
+  messagingSenderId: "893589073761",
+  appId: "1:893589073761:web:b1ddf052ee14b2d6019f20",
+  measurementId: "G-QWGRZ33HWC"
 };
 
 // Initialize Firebase
