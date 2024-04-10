@@ -1,0 +1,53 @@
+.post{
+    display: flex;
+    justify-content: center;
+    row-gap: 20px;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    flex-direction: column;
+}
+.card{
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.151) 0px 5px 20px;
+    position: relative;
+    width: 25vw;
+}
+.uploader{
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+    
+}
+.uploader img{
+    width: 35px;
+    border-radius: 25%;
+    height: 40px;
+}
+.features{
+    display: flex;
+    align-items: center;
+    column-gap: .4vw;
+}
+.features img{
+    width: 25px;
+}
+.uploader .time{
+    font-size: 13px;
+    color: grey;
+}
+.adjustImg{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.postImage{
+    padding: 7px 0;
+    max-width: 25vw;
+}
+.description{
+   max-width:25vw;
+   margin-top: 4px;
+}

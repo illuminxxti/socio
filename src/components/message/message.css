@@ -1,0 +1,148 @@
+
+:root{
+    --black:rgb(31, 29, 29);
+    --white:white;
+    --blue:rgb(28, 166, 230);
+    /* --antique:rgb(243, 232, 219); */
+    --antique:rgb(238, 233, 228);
+}
+.outerContainer{
+    box-shadow: rgba(0, 0, 0, 0.274) 0px 5px 20px;
+    display: flex;
+    column-gap: 1px;
+    background-color: var(--white);
+    color: var(--black);
+}
+.userMessages{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--antique);
+}
+.chatsusername{
+    height: 52vh;
+    overflow-y: scroll;
+}
+.userNames{
+    padding:11px;
+    display: flex;
+    align-items: center;
+    column-gap: .6vw;
+    width: 17vw;
+    cursor: pointer;
+    font-weight: 500;
+}
+.profileImg{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.userNames:hover{
+    background-color: rgb(226, 221, 221);
+}
+.innerContainer{
+    width: 34vw;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--antique);
+}
+.userProfile{
+    display: flex;
+    align-items: center;
+    column-gap: .7vw;
+}
+.titleHeader{
+    background-color: var(--blue);
+    color: white;
+    padding: 10px;
+}
+.userHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--blue);
+}
+.communication{
+    display: flex;
+    column-gap: .7vw;
+    align-items: center;
+    justify-content: center;
+}
+.communication img{
+    width: 22px;
+}
+.currentuserName p{
+    font-weight: 700;
+    color: var(--white);
+}
+.messageSend{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.445);
+}
+.messageSend input{
+    width: calc(34vw - 6vw);
+    border: none;
+    padding: 4px 8px;
+}
+.messageSend button{
+    border: none;
+    background-color: var(--blue);
+    padding: 7px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+}
+.messageFrame{
+    height: 45vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    overflow-y: scroll;
+}
+.sender{
+    display: flex;
+    justify-content: right;
+}
+.reader{
+    display: flex;
+    justify-content: left;
+}
+.Sender,.Reader{
+    background-color: rgb(62, 175, 228);
+    color:white;
+    padding: 5px 10px;
+}
+.Sender{
+    border-radius: 25px 0 25px 25px;
+    max-width: 46%;
+}
+.Reader{
+    border-radius: 0 25px 25px 25px;
+    max-width: 46%;
+}
+::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+  }
+
+.messageSend button:hover{
+    background-color:rgb(26, 152, 211);
+}
+@media only screen and (max-width: 900px) {
+    .userMessages{
+        display: none;
+    }
+    .innerContainer{
+        width: 50vw;
+    }
+    .messageFrame{
+        font-size: 15px;
+    }
+  }

@@ -1,0 +1,74 @@
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e1f3fc;
+}
+.box{
+    padding:25px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.title{
+    padding:15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title h3{
+    font-size: 30px;
+    padding:0;
+}
+input{
+    padding:10px;
+    width: 250px;
+    border:0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.384);
+    outline: none;
+    font-size: 17px;
+}
+.signupInputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 13px;
+}
+.error{
+    display: flex;
+    align-items:start;
+}
+.submitBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+}
+.submitBtn button{
+    width: 250px;
+    border: 0;
+    background-color: #02b2d1;
+    font-size: 17px;
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 11px;
+}
+.extrafeature{
+    padding:10px;
+    text-align:left;
+}
+.error{
+    color: red;
+    padding:7px 0;
+}
+.Link{
+    text-decoration: none;
+}

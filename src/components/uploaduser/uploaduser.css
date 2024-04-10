@@ -1,0 +1,100 @@
+.container-uploaduser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.uploaduser{
+    margin: 1vw 0;
+    display: flex;
+    column-gap: 1vw;
+}
+.uploaderuser-left{
+    width: 45vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+}
+.uploaduser-right{
+    width: 45vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 3vw;
+    justify-content: center;
+}
+.uploaduser-details{
+    display: flex;
+    align-items:self-start;
+    column-gap: 1vw;
+}
+.profile{
+    width: 80px;
+    height: 80px;
+}
+.profile img{
+    width: 80px;
+    height: 80px;
+}
+.about p{
+    font-style:italic;
+    color: rgb(59, 59, 59);
+    font-size: 17px;
+}
+.name p{
+    font-weight: 700;
+    font-size: 19px;
+}
+.message{
+    display: flex;
+    column-gap: 1vw;
+}
+.btnmessage{
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.followers,.following,.totalposts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media only screen and (max-width: 900px) {
+    .uploaduser {
+      flex-direction: column;
+      row-gap: 2vw;
+      margin: 2vw 0;
+    }
+    .uploaduser-right{
+        width: 80vw;
+    }
+    .uploaderuser-left{
+        width: 80vw;
+    }
+  }
+  .followers p,.following p,.totalposts p{
+    font-weight: 600;
+  }
+
+.uploaduser-posts{
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.userPostImage{
+    padding: 7px 0;
+    max-height: 25vh;
+}
+.postcard{
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.151) 0px 5px 20px;
+    position: relative;
+    cursor: pointer;
+}
+.profession{
+    font-weight: 500;
+}

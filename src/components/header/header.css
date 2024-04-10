@@ -1,0 +1,88 @@
+.nav{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    box-shadow: rgba(0, 0, 0, 0.151) 0px 5px 20px;
+}
+.nav ol{
+    display: flex;
+    list-style-type:none;
+    column-gap: 30px;
+
+}
+.nav ol li,.nav ol a{
+    color:black;
+    cursor: pointer;
+}
+
+.nav ol li:hover,.nav ol a:hover{
+    color:red;
+}
+.searchuser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: .5vw;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    padding:2px 7px;
+    border-radius: 15px;
+}
+
+.searchimg{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding:4px;
+    
+}
+.searchuserimg{
+    width:19px;
+}
+.searchuserinput{
+    padding:4px;
+    width: 175px;
+    border: none;
+}
+.sadf45{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5vw;
+}
+.showUser{
+    position: absolute;
+    top: 70px;
+    background-color: white;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.274) 0px 5px 20px;
+}
+.users{
+    display: flex;
+    width: 200px;
+    align-items: center;
+    column-gap: .4vw;
+    padding: 7px;
+    cursor: pointer;
+}
+.profileImg{
+    display: flex;
+}
+.profileImg img{
+    width: 35px;
+    height: 35px;
+}
+.users:hover{
+
+    background-color: black;
+    color:white
+}
+.usererror{
+    padding: 9px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
